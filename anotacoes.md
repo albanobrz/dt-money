@@ -22,3 +22,5 @@
 
 - para fazer o modal, vamos utilizar uma biblioteca do proprio react, chamada react-modal
 - mudar o modal para o App.tsx, porém deixar o botão no Header, e passando a função de abrir via props (desestruturando e com typescript)
+- para estilizar o modal, primeiro utilizamos classes (encontradas na documentação do react-modal) e colocamos o código no styles global
+- pelo styled components, da pra estilizar usando javascript, pra isso tem o polished (ler documentação), que foi usado no botão de marcar do modal
