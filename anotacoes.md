@@ -24,3 +24,7 @@
 - mudar o modal para o App.tsx, porém deixar o botão no Header, e passando a função de abrir via props (desestruturando e com typescript)
 - para estilizar o modal, primeiro utilizamos classes (encontradas na documentação do react-modal) e colocamos o código no styles global
 - pelo styled components, da pra estilizar usando javascript, pra isso tem o polished (ler documentação), que foi usado no botão de marcar do modal
+
+# formatação
+
+- pra fazer formatação de valores (data e dinheiro), existe uma biblioteca nativa do browser, o Intl
