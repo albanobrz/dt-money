@@ -25,6 +25,11 @@
 - para estilizar o modal, primeiro utilizamos classes (encontradas na documentação do react-modal) e colocamos o código no styles global
 - pelo styled components, da pra estilizar usando javascript, pra isso tem o polished (ler documentação), que foi usado no botão de marcar do modal
 
-# formatação
+## formatação
 
 - pra fazer formatação de valores (data e dinheiro), existe uma biblioteca nativa do browser, o Intl
+
+## Comunicação de dados entre vários componentes
+
+- podemos utilizar props, do componente pai pro filho
+- podemos utilizar o Context API do react (transactionsContext)
